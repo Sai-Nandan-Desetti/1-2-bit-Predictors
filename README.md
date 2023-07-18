@@ -1,5 +1,5 @@
 # 1-2-bit-Predictors
-The program implements unimodal and bimodal branch predictors.
+The program demonstrates the use of 1-bit and 2-bit saturating counters for bimodal branch prediction.
 
 ## Results
 The folder `10M accuracies` contains the results for the 1-bit and 2-bit branch predictors on the gcc-10M trace file, respectively.
