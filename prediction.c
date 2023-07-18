@@ -238,7 +238,7 @@ void two_bit_prediction(int address_bits) {
 
     // if pred_msb == 2, then MSB is 1
     // else if pred_msb == 0, then MSB is 0
-    prediction = pred_msb == 2 ? TAKEN : NOT_TAKEN;    
+    // prediction = pred_msb == 2 ? TAKEN : NOT_TAKEN;    
     // fprintf(pred_file, "%d ", prediction);
 
     // if the prediction is accurate, then increment the accuracy counter
